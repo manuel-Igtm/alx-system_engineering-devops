@@ -24,6 +24,17 @@ Creates an alias named `ls` with the value `rm *`.
 Prints `hello <current_user>`, where `<current_user>` is the username of the currently logged-in user. Uses the `$USER` variable.
 
 ---
+### `2-path`
+Appends `/action` to the end of the current `$PATH` environment variable.
+
+---
+
+### `3-paths`
+Prints the number of directories currently listed in the `$PATH` variable. It includes empty fields as separate entries.  
+Useful to understand how `$PATH` is parsed by the shell.
+
+---
+
 
 ## Usage
 Make sure all scripts are executable:
