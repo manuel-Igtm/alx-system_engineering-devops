@@ -56,6 +56,15 @@ Prints all possible combinations of two lowercase letters, except `oo`. One comb
 ### `13-print_float`
 Prints the number stored in the environment variable `NUM` with exactly 2 decimal places using `printf`.
 
+### `101-rot13`
+Encodes and decodes text using ROT13 (Caesar cipher shifting letters by 13).
+
+### `102-odd`
+Prints every other line from input starting with the first (odd lines only).
+
+### `103-water_and_stir`
+Adds custom base-encoded values from environment variables `WATER` and `STIR`, prints the result in `bestchol` base.
+
 ## Usage
 Make sure all scripts are executable:
 ```bash
