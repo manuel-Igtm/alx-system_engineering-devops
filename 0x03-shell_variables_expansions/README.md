@@ -35,6 +35,11 @@ Useful to understand how `$PATH` is parsed by the shell.
 
 ---
 
+### `4-global_variables`
+Prints all global (environment) variables currently available in the shell session using the `printenv` command.
+
+### `5-local_variables`
+Displays all local variables, environment variables, and shell functions using the `set` command.
 
 ## Usage
 Make sure all scripts are executable:
