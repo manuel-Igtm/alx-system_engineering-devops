@@ -41,6 +41,21 @@ Prints all global (environment) variables currently available in the shell sessi
 ### `5-local_variables`
 Displays all local variables, environment variables, and shell functions using the `set` command.
 
+### `8-true_knowledge`
+Prints the result of adding 128 to the value stored in the environment variable `TRUEKNOWLEDGE`.
+
+### `10-love_exponent_breath`
+Displays the result of `BREATH` to the power of `LOVE` using shell arithmetic.
+
+### `11-binary_to_decimal`
+Converts the binary number stored in the `BINARY` environment variable to decimal.
+
+### `12-combinations`
+Prints all possible combinations of two lowercase letters, except `oo`. One combination per line, max 64 characters in the script.
+
+### `13-print_float`
+Prints the number stored in the environment variable `NUM` with exactly 2 decimal places using `printf`.
+
 ## Usage
 Make sure all scripts are executable:
 ```bash
